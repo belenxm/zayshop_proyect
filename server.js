@@ -24,6 +24,21 @@ app.get ('/about', (req, res) => {
    }) 
 })
 
+
+app.get ('/shop', (req, res) => {
+   res.render('shop',{
+    titulo: "Shop Market"
+   }) 
+})
+
+
+app.get ('/contact', (req, res) => {
+   res.render('contact',{
+    titulo: "Contactanos"
+   }) 
+})
+
+
  
 
 
